@@ -27,7 +27,7 @@ export default function Layout({ children, home }) {
           <>
             <Link href="/">
               <a>
-                <Image priority src="/images/profile.jpg" className={utilStyles.borderCircle} height={108} width={108} alt={name} />
+                <Image priority src="https://ik.imagekit.io/7wpxe2myx/Mistyjack/passport_zOtmXzmmMW.png" className={utilStyles.borderCircle} height={108} width={108} alt={name} />
               </a>
             </Link>
             <h2 className={utilStyles.headingLg}>
