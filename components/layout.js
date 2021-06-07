@@ -20,14 +20,14 @@ export default function Layout({ children, home }) {
       <header className={styles.header}>
         {home ? (
           <>
-            <Image priority src="/images/profile.jpg" className={utilStyles.borderCircle} height={144} width={144} alt={name} />
+            <Image priority src="https://ik.imagekit.io/7wpxe2myx/Mistyjack/Logo_Asset_3_vIR3LJ6UN.png" className={utilStyles.borderCircle} height={144} width={144} alt={name} />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
         ) : (
           <>
             <Link href="/">
               <a>
-                <Image priority src="https://ik.imagekit.io/7wpxe2myx/Mistyjack/passport_zOtmXzmmMW.png" className={utilStyles.borderCircle} height={108} width={108} alt={name} />
+                <Image priority src="https://ik.imagekit.io/7wpxe2myx/Mistyjack/Logo_Asset_3_vIR3LJ6UN.png" className={utilStyles.borderCircle} height={108} width={108} alt={name} />
               </a>
             </Link>
             <h2 className={utilStyles.headingLg}>
